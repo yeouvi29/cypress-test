@@ -1,0 +1,6 @@
+[
+  { "name": "Learn Cypress", "isComplete": false },
+  { "name": "Build Framework", "isComplete": true },
+  { "name": "Shopping", "isComplete": false },
+  { "name": "Drink Coffee", "isComplete": true }
+]
