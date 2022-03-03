@@ -18,7 +18,7 @@
     "start:frontend": "react-scripts start",
     "start:server": "json-server -p 8080 db.json -m ./node_modules/json-server-auth -r routes.json",
     "start": "npm-run-all --parallel start:frontend start:server",
-    "cy:run": "npx cypress run --record --key 92955687-e44d-499d-9d54-139f2e8721b8",
+    "cy:run": "npx cypress run --record --key 92955687-e44d-499d-9d54-139f2e8721b8 --parallel",
     "build:and:test": "start-server-and-test start http://localhost:3000 cy:run",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
