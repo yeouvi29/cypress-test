@@ -7,7 +7,7 @@ workflows:
       - cypress/install
       - cypress/run:
         requires:
-          cypress/install
+            - cypress/install
           store_artifacts: true
           command: npm run build:and:test
           parallel: true
