@@ -6,5 +6,5 @@ test:
     - npm install
     - npm run build:and:test
   artifacts:
-  paths:
-    - cypress/videos
+    paths:
+      - cypress/videos
