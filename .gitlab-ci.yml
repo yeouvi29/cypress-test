@@ -2,6 +2,7 @@ image: cypress/base:12
 
 test:
   stage: test
+  parallel: 3
   script:
     - npm install
     - npm run build:and:test
